@@ -1,11 +1,6 @@
-$(document).ready(function () {
 
-    // 找 div 且 class 有 col-md-12 的兒子 class 有 btn
-    // 關於 selector 可參考 http://www.w3schools.com/jquery/jquery_ref_selectors.asp
-    //
-    // 有時候 $() 會找到許多個同樣的 element ，若要對每一個都做一樣的事
-    // 可以使用 $().each() 尋訪一個 element
-    // 更多細節請參考 http://www.w3schools.com/jquery/misc_each.asp
+
+  
     $('div.col-md-12 > .btn').each(function (index) {
 
         // 這裡的 this 是目前被尋訪的 element
@@ -26,4 +21,3 @@ $(document).ready(function () {
             }
         });
     });
-});
